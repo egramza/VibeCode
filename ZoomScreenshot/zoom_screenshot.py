@@ -74,7 +74,7 @@ def run_screenshot():
         print("No border with target color detected.")
 
 # 🔥 HOTKEY LISTENER
-print("🟢 Script running. Press CTRL+ALT+S to capture a screenshot.")
+print("🟢 Script running. Press CTRL+ALT+S to capture a screenshot. Press ESC to quit!")
 keyboard.add_hotkey('ctrl+alt+s', run_screenshot)
 
 # Keeps the script alive
